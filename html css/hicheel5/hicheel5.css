@@ -1,0 +1,121 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Bokor&display=swap');
+.container{
+    width: 40%;
+    height: 550px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .text{
+    width: 300px;
+    height: 300px;
+    background-color: wheat;
+    padding: 25px;
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 30px;
+    word-spacing: 30px;
+    text-shadow: 5px 5px 3px red;
+    font-family: "Bokor", system-ui;
+} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.haih{
+    outline: none;
+    width: 250px;
+    height: 50px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+
+}
+.check1{
+    display: none;
+    
+}
+.button{
+    display: none;
+    
+}
+#check:checked ~ * .button{
+    display: flex;
+    cursor: pointer;
+
+}
+
+.email{
+    outline: none;
+    width: 250px;
+    height: 50px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+#check2{
+    display: none;
+    justify-content: center;
+    
+}
+.button2{
+    display: none;
+
+}
+#check2:checked ~ * .button2{
+    display: flex;
+    cursor: pointer;
+}
+
+.password{
+    outline: none;
+    width: 250px;
+    height: 50px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+#check3{
+    display: none;
+
+    
+}
+.button3{
+    display: none;
+
+}
+#check3:checked ~ * .button3{
+    display: flex;
+    cursor: pointer;
+}
+.bigdata{
+    width: 100%;
+    height: 500px;
+    background-color: none;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-items: center;
+    position: relative;
+    top: 300px;
+
+}
+.data{
+    width: 100%;
+    height: 350px;
+    background-color: none;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 25px;
+    position: absolute;
+    top: 200px;
+}

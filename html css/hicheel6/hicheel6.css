@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 30%;
+    border: 2px white solid;
+    border-radius: 50%;
+    box-shadow: 50px 50px 5px red; }
+body{
+  background-color: none;
+}
+.container2{
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 25%;
+    animation: jishee 3s;
+    animation-direction: alternate;
+    animation-delay: 2s;
+}    
+@keyframes jishee {
+    0% {
+        background-color: aqua;
+        margin-left: 0;
+        margin-top: 0;
+        transform: rotate(0deg);
+    
+    }
+    25%{
+        background-color: green;
+        margin-left: 500px;  
+        margin-top: 0;
+      transform: rotate(180deg);
+
+
+    }
+    50%{
+        background-color: red;
+         margin-left: 500px;  
+         margin-top: 500px;
+         transform: rotate(360deg);
+     
+    }
+    75%{
+        background-color: blue;
+        margin-top: 500px;
+        margin-left: 0;
+        transform: rotate(180deg);
+    }
+    100%{
+        background-color: yellow;
+        margin: 0;
+        transform: rotate(0deg);
+    }
+
+}

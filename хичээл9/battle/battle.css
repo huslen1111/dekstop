@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 1236x;
+    height: 1000px;
+    background-color: #FADE8B;
+}
+.main .circle{
+    width: 400px;
+    height: 400px;
+    border-radius: 50px;
+    background-color: green;
+}

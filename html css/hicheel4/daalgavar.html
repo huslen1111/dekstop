@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main a{ text-decoration: none;
+            font-size: 30px;
+            color: white;
+            display: inline-block;
+            padding: 15px   ;
+        }
+        .main{
+            background-color: skyblue;
+            display: flex;
+            justify-content: end;
+        }
+        ul li{
+            display: none;
+            background-color: green;
+        }
+        .menu:hover + ul li{
+            display: block;
+            transition: 1.5s ease-in-out;
+
+        }
+        .main a{
+            margin: 10px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <a href="">home</a>
+        <a href="">about me</a>
+        <a href="">contact us</a>
+        <div>
+        <a href="" class="menu">menu</a>
+            <ul>
+                <li><a href=""> link1</a></li>
+                <li><a href=""> link2</a></li>
+                <li><a href=""> link3</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

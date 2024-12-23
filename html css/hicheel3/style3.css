@@ -1,0 +1,61 @@
+#bigdata{
+    width: 1000px; height: 500px;
+    background-color: orange;
+    margin: auto;
+    border: 5px brown solid;
+    display: flex;
+}
+#bigdata .item1{
+    width: 350px; height: 400px;
+    background-color: red;
+    border: 3px aqua solid;
+    margin: 50px; display: flex;
+}
+#bigdata .item2{
+    width: 450px; height: 150px;
+    background-color: red;
+    border: 3px aqua solid;
+    margin-top: 50px;
+}
+#bigdata .item3{
+    width: 450px; height: 150px;
+    background-color: red;
+    border: 3px aqua solid;
+}
+.box{width: 250px; height: 150px;
+    background-color: green; border: 3px aqua solid;
+    margin: 50px; display: flex;
+}
+.box1{ width: 50px; height: 100px;background-color: green; border: 3px aqua solid; margin-top: 200px; margin-left: 40px;
+    /* margin-left: 15px; */
+}
+.box12{
+    width: 50px; height: 100px;background-color: green; border: 3px aqua solid; margin-top: 200px;
+}
+.item1{display: flex;}
+.item2{ display: flex;}
+.box2{ width: 100px; height: 75px;
+    background-color: green; border: 3px aqua solid; margin: 25px; ;
+}
+#etam{
+    width: 350px; height: 450px; display: flex;
+}
+#etam2{
+    height: 500px;
+    margin-top: -100px;
+}
+.item3{
+    display: flex;
+}
+#etam3{ width: 350px; height: 450px; display: flex;
+margin: 50px;}
+.box3{
+width: 350px; height: 100px;
+background-color: skyblue; 
+margin: 50px; 
+margin-top: 25px; 
+display: flex; justify-content: center; gap: 50px; align-items: center;
+}
+.box4{
+width: 70px; height: 70px; background-color: green;
+}
